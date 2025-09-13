@@ -1,0 +1,8 @@
+"""Real-World Example: AI Recruiting Tool by Amazon
+According to a report by Reuters news, Amazon developed and then scrapped an AI recruiting tool in 2018, once it was made known to the company that the model was biased against women. The AI was trained on resumes submitted to the company over the previous ten-year period, during which the majority of those resumes were submitted by men. As a result, the AI learned to penalize resumes that included the word "women's" (such as "captain of the women's chess club"), and penalized applicants who had graduated from two all-women's colleges.
+This scenario brings up an important data ethics question: If a model relies on historical bias data, can it ever be fair? The potential harms were great! The tool might have purposely filtered out qualified female candidates, thus propelling existing gender bias even further in hiring and limiting diversity in the company. The known harm was creating a hiring tool that could potentially affirm the same biases that it sought to eliminate, an organization with no diversity, and a missed opportunity for talent.
+Steps for Mitigation: Organizations could do any number of the following:
+Audit the algorithms for bias prior to deployment, and have fairness metrics to ensure equitable treatment across demographic groups.
+Fill the training data set with diverse examples, and purposefully avoid allowing a historical bias to affect the model. 
+Utilize explainable AI (XAI) to better understand how the model creates its decision, and in doing so, help humans identify and fix any biased reasoning.
+Resources: Reuters Article: Amazon scraps secret AI recruiting tool that showed bias against women"""
